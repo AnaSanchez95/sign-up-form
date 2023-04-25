@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+}
+#first-container {
+    background-image: url("./images/P8140892.JPG");
+    background-size: cover;
+    width: 40rem;
+    min-height: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo-header {
+    background-color: rgba(0, 0, 0, 0.251);   
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#logo {
+    height: 100px;
+}
+#header {
+    color: white;
+    font-size: 3rem;
+}
+
+#second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;   
+    
+}
+.text {
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+
+form {
+    background-color: white;   
+    padding-left: 20px;
+    box-shadow: 1px 4px 7px 0px rgba(0,0,0,0.34);
+
+}
+h2 {
+    margin-bottom: 0;
+}
+
+.form-container {    
+    display: flex;
+}
+
+
+li {
+    list-style: none;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+input {
+    width: 200px;
+    appearance: none;
+    display: flex;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-width: 1px;
+    padding: 5px;        
+}
+
+.third-container {
+    padding-left: 20px;
+    margin-top: 15px;
+}
+button {
+    width: 200px;
+    height: 35px;
+    background-color: rgb(95, 120, 95);
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 600;
+    box-shadow: 1px 4px 7px 0px rgba(73, 69, 69, 0.34);
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input:focus{
+    outline: none;
+    border-color: rgb(13, 67, 228);
+    box-shadow: 1px 1px 1px 0px rgba(73, 69, 69, 0.34);
+}
+
+input:invalid{
+    border-color: red;
+    box-shadow: 1px 1px 1px 0px rgba(73, 69, 69, 0.34);    
+}
+
+
+
